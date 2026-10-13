@@ -1,0 +1,20 @@
+{
+  "name": "razarpayapi",
+  "version": "1.0.0",
+  "description": "A farm-to-table organic grocery web application featuring **30 unique, fresh fruits and farm vegetables** with nutritional profiles, real-time basket calculations, coupon discounts, currency switching (₹ INR & $ USD), dark/light theme, and **Razorpay Instant Checkout simulation**.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "razorpay": "^2.9.8"
+  }
+}
